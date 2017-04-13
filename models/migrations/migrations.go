@@ -14,6 +14,7 @@ import (
 	log "gopkg.in/clog.v1"
 
 	"github.com/gogits/gogs/pkg/tool"
+	"github.com/gogits/gogs/pkg/setting"
 )
 
 const _MIN_DB_VER = 10
@@ -286,7 +287,14 @@ type TUser struct {
 	UpdatedUnix int64
 }
 
-func (t *TUser) TableName() string { return "user" }
+func (t *TUser) TableName() string {
+	if setting.UsePostgreSQL {
+	  return `"user"`
+	} else{
+		return "user"
+	}
+
+}
 
 type TWebhook struct {
 	ID          int64 `xorm:"pk autoincr"`

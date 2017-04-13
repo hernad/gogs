@@ -9,9 +9,9 @@ import (
 
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/models/errors"
-	"github.com/gogits/gogs/pkg/context"
+	"github.com/hernad/gogs/models"
+	"github.com/hernad/gogs/models/errors"
+	"github.com/hernad/gogs/pkg/context"
 )
 
 func Search(ctx *context.APIContext) {

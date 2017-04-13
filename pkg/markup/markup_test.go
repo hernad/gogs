@@ -10,8 +10,8 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	. "github.com/gogits/gogs/pkg/markup"
-	"github.com/gogits/gogs/pkg/setting"
+	. "github.com/hernad/gogs/pkg/markup"
+	"github.com/hernad/gogs/pkg/setting"
 )
 
 func Test_IsReadmeFile(t *testing.T) {

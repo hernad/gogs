@@ -9,7 +9,7 @@ import (
 
 	log "gopkg.in/clog.v1"
 
-	"github.com/gogits/gogs/models/errors"
+	"github.com/hernad/gogs/models/errors"
 )
 
 type AccessMode int

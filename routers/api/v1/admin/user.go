@@ -9,11 +9,11 @@ import (
 
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/context"
-	"github.com/gogits/gogs/pkg/mailer"
-	"github.com/gogits/gogs/pkg/setting"
-	"github.com/gogits/gogs/routers/api/v1/user"
+	"github.com/hernad/gogs/models"
+	"github.com/hernad/gogs/pkg/context"
+	"github.com/hernad/gogs/pkg/mailer"
+	"github.com/hernad/gogs/pkg/setting"
+	"github.com/hernad/gogs/routers/api/v1/user"
 )
 
 func parseLoginSource(ctx *context.APIContext, u *models.User, sourceID int64, loginName string) {

@@ -12,15 +12,15 @@ import (
 
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/models/errors"
-	"github.com/gogits/gogs/pkg/context"
-	"github.com/gogits/gogs/pkg/form"
-	"github.com/gogits/gogs/routers/api/v1/admin"
-	"github.com/gogits/gogs/routers/api/v1/misc"
-	"github.com/gogits/gogs/routers/api/v1/org"
-	"github.com/gogits/gogs/routers/api/v1/repo"
-	"github.com/gogits/gogs/routers/api/v1/user"
+	"github.com/hernad/gogs/models"
+	"github.com/hernad/gogs/models/errors"
+	"github.com/hernad/gogs/pkg/context"
+	"github.com/hernad/gogs/pkg/form"
+	"github.com/hernad/gogs/routers/api/v1/admin"
+	"github.com/hernad/gogs/routers/api/v1/misc"
+	"github.com/hernad/gogs/routers/api/v1/org"
+	"github.com/hernad/gogs/routers/api/v1/repo"
+	"github.com/hernad/gogs/routers/api/v1/user"
 )
 
 func repoAssignment() macaron.Handler {

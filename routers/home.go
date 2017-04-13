@@ -7,10 +7,10 @@ package routers
 import (
 	"github.com/Unknwon/paginater"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/context"
-	"github.com/gogits/gogs/pkg/setting"
-	"github.com/gogits/gogs/routers/user"
+	"github.com/hernad/gogs/models"
+	"github.com/hernad/gogs/pkg/context"
+	"github.com/hernad/gogs/pkg/setting"
+	"github.com/hernad/gogs/routers/user"
 )
 
 const (

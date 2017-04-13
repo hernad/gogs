@@ -10,9 +10,9 @@ import (
 	"github.com/Unknwon/com"
 	log "gopkg.in/clog.v1"
 
-	"github.com/gogits/gogs/pkg/mailer"
-	"github.com/gogits/gogs/pkg/markup"
-	"github.com/gogits/gogs/pkg/setting"
+	"github.com/hernad/gogs/pkg/mailer"
+	"github.com/hernad/gogs/pkg/markup"
+	"github.com/hernad/gogs/pkg/setting"
 )
 
 func (issue *Issue) MailSubject() string {

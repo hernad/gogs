@@ -19,10 +19,10 @@ import (
 	log "gopkg.in/clog.v1"
 	"gopkg.in/macaron.v1"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/auth"
-	"github.com/gogits/gogs/pkg/form"
-	"github.com/gogits/gogs/pkg/setting"
+	"github.com/hernad/gogs/models"
+	"github.com/hernad/gogs/pkg/auth"
+	"github.com/hernad/gogs/pkg/form"
+	"github.com/hernad/gogs/pkg/setting"
 )
 
 // Context represents context of a request.

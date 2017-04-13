@@ -7,10 +7,10 @@ package admin
 import (
 	api "github.com/gogits/go-gogs-client"
 
-	"github.com/gogits/gogs/models"
-	"github.com/gogits/gogs/pkg/context"
-	"github.com/gogits/gogs/routers/api/v1/convert"
-	"github.com/gogits/gogs/routers/api/v1/user"
+	"github.com/hernad/gogs/models"
+	"github.com/hernad/gogs/pkg/context"
+	"github.com/hernad/gogs/routers/api/v1/convert"
+	"github.com/hernad/gogs/routers/api/v1/user"
 )
 
 func CreateTeam(ctx *context.APIContext, form api.CreateTeamOption) {
